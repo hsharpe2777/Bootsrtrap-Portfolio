@@ -1,0 +1,128 @@
+body{
+
+	background-image: url("../../assets/images/concrete_seamless.png");
+    position: relative;
+}
+
+/*Bootstrap override -
+ custom brand*/
+
+.brandoverride{
+    margin-top: -5%;
+}
+
+/*Submit Button in Contact page*/
+.btn-default {
+    color: #fff;
+    background-color: #4aaaa5;
+    border-color: #ccc;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-top: 2%;
+
+}
+
+/*Bootstrap override -
+move navs to right of page*/
+
+.navbar-nav{
+
+	margin-left: 60%
+}
+
+/*Bootstrap override -
+ form margin on contact page*/
+
+form{
+	margin-top: 5%;
+}
+
+/*Bootstrap override -
+ panel style on all pages*/
+.panel-default{
+
+	
+	margin-left: 10%;
+	margin-top: 20px;
+	margin-right: 10%;
+}
+
+/*Bootstrap override -
+ panel body on all pages*/
+
+panel-body{
+
+text-align: left;
+
+
+}
+
+
+/*Bootstrap override -
+ panel heading on all pages*/
+.panel-default>.panel-heading{
+
+	background-color: #fff;
+	 color: #4aaaa5;
+}
+
+
+/*Bootstrap override -
+ panel heading on all pages*/
+.panel-heading {
+    padding: 10px 15px;
+    border-bottom: 4px solid #eee;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+   font-size: 25px;
+	margin-left: 45px;
+	margin-right: 45px;
+	padding-top: 20px;
+    font-family:'Georgia', Times, Times New Roman, serif;
+}
+
+
+
+/*Bootstrap override - form 
+styling on contacts page*/
+
+.form-control{
+
+	width: 80%;
+	margin-left: 10%;
+}
+
+label{
+
+	margin-left: 10%;
+}
+
+footer{
+    color: #fff;
+    position: absolute;
+	background-color: #666666;
+	width: 270%;
+	height: 70px;
+	right: 1%;
+	clear : both;
+	border-top-style: solid;
+	border-width: 10px;
+	border-top-color: #4aaaa5;
+	margin-top: 100%;
+	
+}
+
+
+/*labels overlapping of images*/
+
+.image_label{
+position: relative;
+z-index: 2;
+font-size: 18px;
+color: #fff;
+padding: 13px;
+background-color:#4aaaa5; 
+margin-bottom: 0px;
+
+}
+	
